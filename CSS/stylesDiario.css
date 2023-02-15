@@ -113,10 +113,15 @@ body{
     height: 100%;
     width: 319px;
     float: left;
-    border-left: 3px solid white ;
+    border-left: 3px solid white;
+    overflow: scroll;
 }
 
 .right p{
     padding: 10px;
     text-align: justify;
+}
+
+.right::-webkit-scrollbar{
+    display: none;
 }

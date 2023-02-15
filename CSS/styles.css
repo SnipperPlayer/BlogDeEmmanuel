@@ -1,5 +1,5 @@
 body{
-    
+    background-color: rgb(12, 12, 12);
     color: white;
     margin: 0;
     padding: 0;
@@ -114,9 +114,14 @@ body{
     width: 319px;
     float: left;
     border-left: 3px solid white ;
+    overflow: scroll;
 }
 
 .right p{
     padding: 10px;
     text-align: justify;
+}
+
+.right::-webkit-scrollbar{
+    display: none;
 }
