@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <title>Blog de Emmanuel</title>
+
+    <link rel="stylesheet" href = "CSS/stylesMusica.css">
+    <script src="https://kit.fontawesome.com/80f35314f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class = left>
+        <ul>
+            <li>
+                <img class = logo src="imag/logo.png" alt="Logotipo">
+            </li>
+            <li>
+                <a href="index.html"><i class="fa-solid fa-house"></i>INICIO</a>
+            </li>
+            <li>
+                <a href="Diario.html"><i class="fa-solid fa-newspaper"></i>DIARIO</a>
+            </li>
+            <li>
+                <a href="Musica.html"><i class="fa-solid fa-music"></i>MÚSICA</a>
+            </li>
+            <li>
+                <a href="Peliculas.html"><i class="fa-solid fa-film"></i>PELÍCULAS</a>
+            </li>
+            <li>
+                <a href="Fotos.html"><i class="fa-solid fa-camera"></i>FOTOS</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class = "center">
+        <h2 class="title">El Blog De Emmanuel</h2>
+        <h2 class="subtitle">Top Artist</h2>
+        <button class="pre-btn"><img src="Imag/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="Imag/arrow.png" alt=""></button>    
+        
+        <div class = "artist">  
+            <div class="card" onclick="showText('myText')">
+                <div class="artImage" >
+                    <span class="number">#1</span>
+                    <img src="Imag/img1.jpg" class="image" alt="">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Artist</h2>
+                </div>
+            </div>
+            <div class="card" onclick="showText('myText')">
+                <div class="artImage" >
+                    <span class="number">#1</span>
+                    <img src="Imag/img1.jpg" class="image" alt="">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Artist</h2>
+                </div>
+            </div>
+            <div class="card" onclick="showText('myText')">
+                <div class="artImage" >
+                    <span class="number">#1</span>
+                    <img src="Imag/img1.jpg" class="image" alt="">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Artist</h2>
+                </div>
+            </div>
+            <div class="card" onclick="showText('myText')">
+                <div class="artImage" >
+                    <span class="number">#1</span>
+                    <img src="Imag/img1.jpg" class="image" alt="">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Artist</h2>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="subtitle">Top Album</h2>
+        <div class = "artist">
+            <button class="pre-btn"><img src="Imag/arrow.png" alt=""></button>
+            <button class="nxt-btn"><img src="Imag/arrow.png" alt=""></button>      
+            <div class="card" onclick="showText('myText')">
+                <div class="artImage" >
+                    <span class="number">#1</span>
+                    <img src="Imag/img1.jpg" class="image" alt="">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Artist</h2>
+                </div>
+            </div>
+            <div class="card" onclick="showText('myText')">
+                <div class="artImage" >
+                    <span class="number">#1</span>
+                    <img src="Imag/img1.jpg" class="image" alt="">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Artist</h2>
+                </div>
+            </div>
+            <div class="card" onclick="showText('myText')">
+                <div class="artImage" >
+                    <span class="number">#1</span>
+                    <img src="Imag/img1.jpg" class="image" alt="">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Artist</h2>
+                </div>
+            </div>
+            <div class="card" onclick="showText('myText')">
+                <div class="artImage" >
+                    <span class="number">#1</span>
+                    <img src="Imag/img1.jpg" class="image" alt="">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Artist</h2>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
+    <div class = right>
+        <p id="myText" style="display: none;">Este es el texto que quieres mostrar</p>
+        <p id="myText2" style="display: none;">Este es el  que quieres mostrar</p>
+    </div>
+
+    <script src = "JS/Musica.js"></script>  
+</body>   
+</html>
